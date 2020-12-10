@@ -92,8 +92,8 @@ export async function getServerSideProps() {
   return {
     props: {
       data: {
-        rows: 15,
-        columns: 10,
+        rows: 9,
+        columns: 6,
         colors: ["#0097e6", "#8c7ae6", "#e1b12c", "#44bd32", "#c23616"],
       },
     },

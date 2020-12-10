@@ -4,10 +4,13 @@ import styled from "styled-components";
 const StyledGridItem = styled.li`
   position: relative;
   cursor: pointer;
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  margin: 4px;
+  margin: 8px;
+
+  &:before {
+    content: "";
+    padding-top: 100%;
+    display: block;
+  }
 `;
 
 const GridItem = ({ className, children, onClick, onMouseEnter }) => (

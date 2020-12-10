@@ -17,7 +17,10 @@ import {
 import GridItem from "../GridItem/GridItem";
 
 const StyledGrid = styled.ul`
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   width: 320px;
+  padding: 8px;
 `;
 
 const Grid = ({ layout, columns, rows, updateLayout }) => {
